@@ -33,13 +33,13 @@ include_once 'config.php';
     <meta property="og:image:alt" content="<?php echo $cfg_name; ?> Logo" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/main.css" />
+    <link rel="stylesheet" href="<?= $cfg_mainurl ?>/assets/main.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- JavaScript -->
-    <script src="assets/main.js" defer></script>
+    <script src="<?= $cfg_mainurl ?>/assets/main.js" defer></script>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />

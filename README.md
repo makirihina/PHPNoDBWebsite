@@ -1,4 +1,4 @@
-# PurifyFlat - Static Website Kit with PHP
+# PurifyFlat - Flat-File Static Website Kit for PHP
 
 A minimalist, PHP-based, CMS-like no-database (flat-file) website starter kit for quickly building static or semi-dynamic websites.  
 Designed for simplicity, flexibility, and speed — this lightweight structure helps you create and manage a website without the need for any database.

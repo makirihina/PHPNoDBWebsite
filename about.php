@@ -1,31 +1,23 @@
 <?php
 
-define('DIR_ACCESS', true); // allow access for guests
-
-// include the configuration file
+define('DIR_ACCESS', true);
 include_once __DIR__ . '/inc/config.php';
 
-$url = rtrim($cfg_mainurl, '/') . '/'; // Example: /about (Empty for the homepage)
-
-// Set the title and description for the homepage
-$title = $cfg_name . " - Homepage";
+$url = rtrim($cfg_mainurl, '/') . '/about';
+$title = $cfg_name . " - About";
 $desc = "Welcome to " . $cfg_name . ", your trusted partner in innovative business solutions.";
 
-// include the URL processing file
 include_once __DIR__ . '/inc/url.php';
-
-// include the head and navbar parts of the site
 include_once __DIR__ . '/inc/head.php';
 include_once __DIR__ . '/inc/navbar.php';
-
 ?>
 
 <!-- Content Start -->
 <main class="nf_main-content nf_container2">
     <section class="nf_hero">
-        <h1>Welcome to <?= $cfg_name ?></h1>
+        <h1>About <?= $cfg_name ?></h1>
         <p><?= $cfg_name ?> provides reliable and efficient solutions tailored for your business needs.</p>
-        <a href="<?= $cfg_mainurl ?>/about" class="nf_btn-primary">Learn More</a>
+        <a href="<?= $cfg_mainurl ?>" class="nf_btn-primary">Learn More</a>
     </section>
 
     <!-- Features Section -->

@@ -1,4 +1,4 @@
-# PHPNoDBWebsite
+# PurifyFlat - Static Website Kit with PHP
 
 A minimalist, PHP-based, CMS-like no-database (flat-file) website starter kit for quickly building static or semi-dynamic websites.  
 Designed for simplicity, flexibility, and speed — this lightweight structure helps you create and manage a website without the need for any database.
@@ -14,8 +14,8 @@ Designed for simplicity, flexibility, and speed — this lightweight structure h
 ---
 
 ## ⚙️ Requirements
-- PHP 7.0 or higher  
-- Any web server with PHP support (Apache, Nginx, LiteSpeed, etc.)  
+- PHP 7.4 or higher recommended
+- Any web server with PHP support (Apache, Nginx, LiteSpeed, etc.)
 - Basic understanding of HTML, CSS, and PHP
 
 ---
